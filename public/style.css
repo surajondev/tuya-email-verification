@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+
+.container {
+  margin: 10em auto;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  background-color: white;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+input,
+button {
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+input {
+  border: lightgrey 1px solid;
+}
+
+p {
+  margin-bottom: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+  background-color: #0084ff;
+  color: white;
+  font-family: sans-serif;
+}

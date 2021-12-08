@@ -1,0 +1,21 @@
+{
+  "name": "tuya-send-code-simplified",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "author": "surajondev",
+  "license": "MIT",
+  "dependencies": {
+    "@tuya/tuya-connector-nodejs": "^2.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
